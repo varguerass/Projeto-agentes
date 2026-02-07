@@ -29,9 +29,11 @@ Projeto criado com foco em **aprendizado de JavaScript** e **entrada de dados no
 
 ### Pré-requisitos
 - Ter o **Node.js** instalado
--Instalar a dependência:
-npm install readline-sync
+- Instalar a dependência:
 
+```bash
+npm install readline-sync
+```
 ▶️ Como Executar
 
 Execute o programa no terminal com:
@@ -47,12 +49,14 @@ Ele não funciona em editores online ou apenas clicando em “Run Code”.
 
 O rank do agente é definido de acordo com o XP:
 
-XP	Rank
-≤ 1000	Ferro
-≤ 2000	Bronze
-≤ 5000	Prata
-≤ 7000	Ouro
-≤ 8000	Platina
-≤ 9000	Ascendente
-≤ 10000	Imortal
-> 10000	Radiante
+
+| XP            | Rank        |
+|--------------|-------------|
+| ≤ 1000       | Ferro       |
+| ≤ 2000       | Bronze      |
+| ≤ 5000       | Prata       |
+| ≤ 7000       | Ouro        |
+| ≤ 8000       | Platina    |
+| ≤ 9000       | Ascendente  |
+| ≤ 10000      | Imortal    |
+| > 10000      | Radiante   |
